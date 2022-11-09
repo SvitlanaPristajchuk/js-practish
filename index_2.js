@@ -4,4 +4,8 @@
  console.log ('Mafjh' && null || false);
 
 
- console.log()
+ console.log('Mafjh' && 'gjhgj'|| false);
+
+ console.log(null || false && true);
+
+ 
