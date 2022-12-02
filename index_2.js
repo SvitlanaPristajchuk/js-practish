@@ -1,11 +1,22 @@
- console.log(null && 'false' && 'Manh');
- console.log (null || 'false' || 'Mnn');
- console.log('false' && 'MAbn' || nul);
- console.log ('Mafjh' && null || false);
 
 
- console.log('Mafjh' && 'gjhgj'|| false);
 
- console.log(null || false && true);
 
+const productName = "Repair droid";
+
+
+function formatMessage(message, maxLength) {
+  let result;
+  const newMessage = message.slice(maxLength);
+  const continie = '...'
+  // Change code below this line
+if (message.lenght >= maxLength) {
+  result = message;
+} else {
+    result = newMessage;
+}
+
+return result
+}
  
+console.log(result)
